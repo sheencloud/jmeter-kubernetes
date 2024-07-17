@@ -13,7 +13,7 @@ then
     exit
 fi
 
-kubectl version --short
+kubectl version
 
 echo "Current list of namespaces on the kubernetes cluster:"
 
